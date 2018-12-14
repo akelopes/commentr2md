@@ -12,11 +12,11 @@ This was intended to be used for shiny apps documentation, since the tools avail
 
 #  How to install
 
-Simply type the line bellow in Rstudio:
+Simply type the line bellow in Rstudio:  
 `devtools::install_github("automa7/commentr2md")`
 
 # How to use
-Default syntax is:
+Default syntax is:  
 `Commentr2md::make_md(file, output_name, encoding = 'UTF-8', style = NULL, ...)`
 
 Parameters:
