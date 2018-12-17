@@ -5,9 +5,9 @@
 #'
 #' @param encoding A string containing the encode that will be used to read the script, by default it will be 'Native'
 #'
-#' @return a list of lines
+#' @return a list of lines from the file
 #'
-#' @example get_lines('C:/path/to/file.R')
+#' @example get_comments('C:/path/to/file.R')
 #'
 
 get_comments <- function(file, encoding = "UTF-8") {
