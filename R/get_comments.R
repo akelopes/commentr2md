@@ -16,7 +16,7 @@ get_comments <- function(file, encoding = "UTF-8") {
   data <- read.delim(file, col.names = 'lines', header = FALSE, stringsAsFactors = FALSE, encoding = encoding)
 
   # Comments are extracted and trimmed
-  extracted_comments <- trimws(data[substr(data$lines, 1, 2) == "#'",], 'left')
+  extracted_comments <- trimws(data[substr(trimws(data$lines, 'left'), 1, 2) == "#'",], 'left')
 
   # the #' is removed
   extracted_comments <- unlist(lapply(extracted_comments,
