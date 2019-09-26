@@ -63,10 +63,3 @@ Parameters:
         * *name*: a string containing the  name that will be greeted  
      * Notes:  
         * Variable *param_name* was created to store the parameter as per standard protocol **xx.zz.123**.
-
-# Notes
-
-* Use double space before new lines.
-
-# Future plans
-* I would like to improve this package to use the code as well, in order to make a notebook-like final document.
